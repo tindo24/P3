@@ -52,7 +52,10 @@
 		<br>
  {{Form:: open(array('url' => 'randUsers'))}}
   {{Form::label('number', 'number Of Users')}}
-  {{Form::number('randomUsers')}}
+  {{Form::number('randomUsers',1,array(
+            'min' => '1',
+            'max' => '10',
+            'class' => 'form-control'))}}
   
   @if(isset($randomUsers))
 

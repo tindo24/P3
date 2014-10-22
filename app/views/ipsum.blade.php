@@ -55,7 +55,10 @@
 		<br>
   {{Form:: open(array('url' => 'ipsum'))}}
   {{Form::label('number', '# paragraph')}}
-  {{Form::number('paraNumber')}}
+  {{Form::number('paraNumber',1,array(
+            'min' => '1',
+            'max' => '10',
+            'class' => 'form-control'))}}
   
   @if(isset($paraNumber))
 
