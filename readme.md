@@ -30,9 +30,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ###Description
 
-Project 3 is a random paragraph and text generator
+Project 3 generates two apps, random paragraph and random users
 
-Paragraphs are generated from the famous lorem ipsum sudo text 
+Random paragraphs are generated from the famous lorem ipsum sudo text 
 
 Random user is a generic app that will create fake users to test on your php app.
 
