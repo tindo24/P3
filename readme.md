@@ -32,7 +32,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 Project 3 is a random paragraph and text generator
 
-The paragraph are generated from the famour lorem ipsum text, this is a sudo text 
+Paragraphs are generated from the famour lorem ipsum text, this is a sudo text 
 
 Random user is a generic app that will create fake users to test on your php app.
 
@@ -43,5 +43,6 @@ I'm planning on presenting during a live session
 ### Plugins
 
 lorem ipusm package(bad\cow\ipsum)
+
 fake user package (fzaninotto/Faker/tree/master)
 
