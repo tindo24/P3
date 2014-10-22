@@ -48,7 +48,7 @@
 <body>
 	<div class="maincont">
 		<p>This page has two links,Lorem Ipsum generator and Random User Generator</p>
-		<p> This apps are used to generate fake paragraph and users on your site for testing</p>
+		<p> These apps are used to generate fake paragraph and users on your site for testing</p>
 		<p>These are only test data and as such are not real</p>
 		
 		<h3>Lorem Ipsum Generator</h3>

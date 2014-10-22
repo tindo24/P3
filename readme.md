@@ -23,3 +23,25 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+### Project URL
+
+[P3Url](http://p3.tindoclass.me/)
+
+###Description
+
+Project 3 is a random paragraph and text generator
+
+The paragraph are generated from the famour lorem ipsum text, this is a sudo text 
+
+Random user is a generic app that will create fake users to test on your php app.
+
+###Demo Information
+
+I'm planning on presenting during a live session
+
+### Plugins
+
+lorem ipusm package(bad\cow\ipsum)
+fake user package (fzaninotto/Faker/tree/master)
+
