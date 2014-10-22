@@ -51,22 +51,31 @@ Route::get('randUsers', function()
 
 Route::post('randUsers',function()
 {
-	$randUsers=Input::get('randUsers');
+	$randomUsers=Input::get('randomUsers');
+	$email= Input::get('email');
+	$address=Input::get('address');
 	
 	$userResults='';
 
 	$faker = Faker\Factory::create();
 	
-	for ($i=0; $i < $randUsers; $i++) {
-		$userResults.='<p>'.$faker->name.'<br>'.$faker->email.'<br>'.$faker->address.'<p>';
+	for ($i=0; $i < $randomUsers; $i++) {
 		
-}	
-	return View::make('randUsers')->with('randUsers',$userResults);
-	/*start with just the number before going to the submit buttons
-	 * use a for loop for faker
-	 * faker has $name,$city,$email variables
-	 * */
+	$userResults.='<p>'.$faker->name.'<br>';
 		
+		if(isset($_POST['email']))	{
+	$userResults.=$faker->email.'<br>';
+	
+}
+		if(isset($_POST['address']))	{
+	$userResults.=$faker->address.'<p>';
+	
+}
+		
+	}
+		
+
+	return View::make('randUsers')->with('randomResults',$userResults);
 	
 }
 );
